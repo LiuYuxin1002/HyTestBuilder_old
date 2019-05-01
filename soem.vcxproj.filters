@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatbase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatcoe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatconfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercateoe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatfoe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatprint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\soem\ethercatsoe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\osal\win32\osal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\oshw\win32\nicdrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\oshw\win32\oshw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\研究生课题\开源软件\SOEM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9A92D94B-F7B8-3CB3-9FB6-0509328E8B3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

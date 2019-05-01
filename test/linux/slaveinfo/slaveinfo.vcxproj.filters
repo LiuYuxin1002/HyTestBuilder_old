@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\研究生课题\开源软件\SOEM\test\linux\slaveinfo\slaveinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\研究生课题\开源软件\SOEM\test\linux\slaveinfo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9A92D94B-F7B8-3CB3-9FB6-0509328E8B3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
