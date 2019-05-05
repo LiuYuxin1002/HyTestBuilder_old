@@ -1,0 +1,8 @@
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\MasterConnectorConsole.exe.config
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\MasterConnectorConsole.exe
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\MasterConnectorConsole.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\obj\Debug\MasterConnectorConsole.csprojResolveAssemblyReference.cache
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\obj\Debug\MasterConnectorConsole.exe
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\obj\Debug\MasterConnectorConsole.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\DLLOutput.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\DLLOutput.pdb

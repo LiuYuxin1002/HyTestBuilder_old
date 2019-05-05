@@ -19,20 +19,21 @@ namespace MasterConnectorConsole
     [StructLayout(LayoutKind.Sequential)]
     public struct Context
     {
-        public string[] nicInfo;
-        public int nicNum;
-        public int nicSelected;
-        public int slaveNum;
+        public List<StringBuilder> nicDesc;
+        public List<StringBuilder> nicName;
+        public int adapterNum;
     }
 
     public class InterfaceClass
     {
         //获取计算机网卡信息，接收到Context结构体
-        [DllImport("DLLOutput.dll", EntryPoint = "getNicInfo", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int getNicInfo(ref Context _context);
+        [DllImport("DLLOutput.dll")]
+        public static extern int getAdapterNum();
+        [DllImport("DLLOutput.dll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int getContextInfo(StringBuilder str);
         //设置所选网卡，如果失败返回错误信息，成功返回当前连接的从站信息
-        [DllImport("DLLOutput.dll", EntryPoint = "setNicInfo", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int setNicInfo(int nicId);
+        [DllImport("DLLOutput.dll", EntryPoint = "setNicId", CallingConvention = CallingConvention.Cdecl)]
+        public static extern int setNicId(int nicId);
         //自动配置从站，成功更新结构体数组
         [DllImport("DLLOutput.dll")]
         public static extern int initConfig();
@@ -50,18 +51,21 @@ namespace MasterConnectorConsole
     {
         static void Main(string[] args)
         {
-            
             Context context = new Context();
+            context.nicName = new List<StringBuilder>(10);
 
-            int nicNum = InterfaceClass.getNicInfo(ref context);
+            int adapterNum = InterfaceClass.getAdapterNum();
             Console.WriteLine("您的网卡信息如下, 请选择：");
-            for (int i=0; i<nicNum; i++)
+            for (int i=0; i< adapterNum; i++)
             {
-                Console.WriteLine("[" + i + "] :" + context.nicInfo[i]);
+                StringBuilder strb = new StringBuilder(128);
+                int nicNum = InterfaceClass.getContextInfo(strb);
+                context.nicName.Add(strb);
+                Console.WriteLine("[" + i + "] :" + strb);
             }
             //读取选择网卡
-            context.nicSelected = int.Parse(Console.ReadLine());
-            int result = InterfaceClass.setNicInfo(context.nicSelected);
+            int selected = int.Parse(Console.ReadLine());
+            int result = InterfaceClass.setNicId(selected);
 
             if (result <= 0)//连接失败
             {
@@ -70,10 +74,10 @@ namespace MasterConnectorConsole
             }
             
             //如果连接成功，建立从站结构体数组
-            SlaveInfo[] slaveinfo = new SlaveInfo[context.slaveNum];
+            SlaveInfo[] slaveinfo = new SlaveInfo[context.adapterNum];
             //显示从站信息
             Console.WriteLine("您的计算机连接的从站信息如下：");
-            for (int i=0; i<context.slaveNum; i++)
+            for (int i=0; i<context.adapterNum; i++)
             {
                 InterfaceClass.getSlaveInfo(ref slaveinfo[i], i);
                 Console.WriteLine(i+":"+slaveinfo[i].name);
