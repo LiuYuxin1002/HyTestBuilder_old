@@ -32,7 +32,7 @@ extern "C"
 	}
 
 
-	TEXPORT void getSlaveInfo(ec_slavet* slave, int id)
+	TEXPORT void getSlaveInfo(TransferClass::MySlavet* slave, int id)
 	{
 		transfer->getSlaveInfo(slave, id);
 	}
@@ -44,9 +44,9 @@ extern "C"
 	}
 
 
-	TEXPORT int setDoubleValue(int slaveId, int channel, double value)
+	TEXPORT int setDigitValue(int slaveId, int channel, bool value)
 	{
-		return transfer->setDoubleValue(slaveId, channel, value);
+		return transfer->setDigitValue(slaveId, channel, value);
 	}
 
 #ifdef __cplusplus

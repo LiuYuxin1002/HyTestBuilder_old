@@ -24,129 +24,71 @@ public:
 	struct DI2
 	{
 		bool values[2];
-		bool inputvalue1;
-		bool inputvalue2;
 		DI2* next = NULL;
 	};
 	struct DI4
 	{
 		bool values[4];
-		bool inputvalue1;
-		bool inputvalue2;
-		bool inputvalue3;
-		bool inputvalue4;
 		DI4* next = NULL;
 	};
 	struct DI8
 	{
 		bool values[8];
-		bool inputvalue1;
-		bool inputvalue2;
-		bool inputvalue3;
-		bool inputvalue4;
-		bool inputvalue5;
-		bool inputvalue6;
-		bool inputvalue7;
-		bool inputvalue8;
 		DI8* next = NULL;
 	};
 	struct DO2
 	{
 		bool values[2];
-		bool outputvalue1;
-		bool outputvalue2;
 		DO2* next = NULL;
 	};
 	struct DO4
 	{
 		bool values[4];
-		bool outputvalue1;
-		bool outputvalue2;
-		bool outputvalue3;
-		bool outputvalue4;
 		DO4* next = NULL;
 	};
 	struct DO8
 	{
 		bool values[8];
-		bool outputvalue1;
-		bool outputvalue2;
-		bool outputvalue3;
-		bool outputvalue4;
-		bool outputvalue5;
-		bool outputvalue6;
-		bool outputvalue7;
-		bool outputvalue8;
 		DO8* next = NULL;
 	};
 	struct AI1
 	{
 		int16 values[1];
-		int16 inputvalue1;
 		AI1* next = NULL;
 	};
 	struct AI2
 	{
 		int16 values[2];
-		int16 inputvalue1;
-		int16 inputvalue2;
 		AI2* next = NULL;
 	};
 	struct AI4
 	{
 		int16 values[4];
-		int16 inputvalue1;
-		int16 inputvalue2;
-		int16 inputvalue3;
-		int16 inputvalue4;
 		AI4* next = NULL;
 	};
 	struct AI8
 	{
 		int16 values[8];
-		int16 inputvalue1;
-		int16 inputvalue2;
-		int16 inputvalue3;
-		int16 inputvalue4;
-		int16 inputvalue5;
-		int16 inputvalue6;
-		int16 inputvalue7;
-		int16 inputvalue8;
 		AI8* next = NULL;
 	};
 	struct AO1
 	{
 		int16 values[1];
-		int16 outputvalue1;
 		AO1* next = NULL;
 	};
 	struct AO2
 	{
 		int16 values[2];
-		int16 outputvalue1;
-		int16 outputvalue2;
 		AO2* next = NULL;
 	};
 	struct AO4
 	{
 		int16 values[4];
-		int16 outputvalue1;
-		int16 outputvalue2;
-		int16 outputvalue3;
-		int16 outputvalue4;
 		AO4* next = NULL;
 	};
 	struct AO8
 	{
 		int16 values[8];
-		int16 outputvalue1;
-		int16 outputvalue2;
-		int16 outputvalue3;
-		int16 outputvalue4;
-		int16 outputvalue5;
-		int16 outputvalue6;
-		int16 outputvalue7;
-		int16 outputvalue8;
 		AO8* next;
 	};
 
