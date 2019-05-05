@@ -10,10 +10,6 @@ extern "C"
 #define TEXPORT extern "C" _declspec(dllexport)
 #endif
 
-	/*DLLOutput::DLLOutput()
-	{
-	}*/
-
 	TEXPORT int getAdapterNum() {
 		return transfer->getAdapterNum();
 	}

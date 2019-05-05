@@ -60,9 +60,27 @@ namespace MasterConnectorConsole.Connectors
             return adapter.nicName;
         }
 
-        public int setAdapterIdToUse()
+        public SlaveInfo[] setAdapterIdToUse(int id)
         {
-
+            int isConnected = InterfaceClass.setNicId(id);
+            //isConnected表示连接的从站数量
+            if (isConnected > 0)
+            {
+                //如果连接成功，建立从站结构体数组
+                SlaveInfo[] slaveinfo = new SlaveInfo[isConnected+1];
+                //显示从站信息
+                //Console.WriteLine("您的计算机连接的从站信息如下：");
+                for (int i = 0; i < isConnected + 1; i++)
+                {
+                    InterfaceClass.getSlaveInfo(ref slaveinfo[i], i);
+                    Console.WriteLine(i + ":" + slaveinfo[i].name);
+                }
+                return slaveinfo;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
