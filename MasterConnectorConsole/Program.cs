@@ -44,8 +44,6 @@ namespace MasterConnectorConsole
         public static extern int setIntergerValue(int slaveId, int channel, int value);
         [DllImport("DLLOutput.dll")]
         public static extern int setDoubleValue(int slaveId, int channel, double value);
-
-
     }
     class Program
     {
