@@ -12,6 +12,7 @@ namespace IndustrialEthernetAPI
         public IOdevice[] devices { get; set; }
         public Adapter[] adapters { get; set; }
         public bool hasAdapter { get; set; }
+        public int deviceNum { get; set; }
         public int inputDeviceNum { get; set; }
         public int outputDeviceNum { get; set; }
         public int adapterNum { get; set; }

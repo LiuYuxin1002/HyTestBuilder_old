@@ -10,7 +10,6 @@ namespace EtherCATImpl
 {
     class EtherCAT : IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
     {
-        //public IOdevice[] devices { get; set; }
         #region region_property
         public ConnectionContext context { get; set; }
         #endregion
@@ -24,7 +23,6 @@ namespace EtherCATImpl
         public event EventHandler datachanged;
 
         #endregion
-
 
         #region region_connection
         public int close()

@@ -23,7 +23,7 @@ namespace EtherCATImpl
         [DllImport("DLLOutput.dll")]
         public static extern int getSlaveNum();
         [DllImport("DLLOutput.dll", EntryPoint = "setNicInfo", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void getSlaveInfo(ref Slave slaveInfo, int id);
+        public static extern int getSlaveInfo(ref Slave slaveInfo, int id);
         //设置从站某端口信息
         [DllImport("DLLOutput.dll")]
         public static extern int setIntergerValue(int slaveId, int channel, int value);
