@@ -22,6 +22,7 @@ namespace MasterConnectorConsole
         public List<StringBuilder> nicDesc;
         public List<StringBuilder> nicName;
         public int adapterNum;
+        public int slaveNum;
     }
 
     public class InterfaceClass
@@ -72,10 +73,10 @@ namespace MasterConnectorConsole
             }
             
             //如果连接成功，建立从站结构体数组
-            SlaveInfo[] slaveinfo = new SlaveInfo[context.adapterNum];
+            SlaveInfo[] slaveinfo = new SlaveInfo[context.slaveNum];
             //显示从站信息
             Console.WriteLine("您的计算机连接的从站信息如下：");
-            for (int i=0; i<context.adapterNum; i++)
+            for (int i=0; i<context.slaveNum; i++)
             {
                 InterfaceClass.getSlaveInfo(ref slaveinfo[i], i);
                 Console.WriteLine(i+":"+slaveinfo[i].name);

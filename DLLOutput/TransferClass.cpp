@@ -150,7 +150,7 @@ extern "C"
 		if (myadapter.adapterNum > 0) {
 			strcpy(adapterName, (char*)myadapter.nicName[--myadapter.adapterNum].data());
 		}
-		return myadapter.adapterNum;
+		return 0;
 	}
 
 	char ifbuf[1024];
