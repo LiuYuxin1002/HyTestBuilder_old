@@ -81,10 +81,29 @@ namespace EtherCATImpl.database
             return Encoding.UTF8.GetBytes(str);
         }
 
-        //未实现
         private static byte[][] stringToBytesArr(Dictionary<string, string> dic, int keyorvalue)
         {
-            return null;
+            int i = 0;
+            string[] needToTransStr = new string[dic.Count];
+            foreach(KeyValuePair<string, string> kv in dic)//获取要转换的字符串
+            {
+                if (keyorvalue == KEY)
+                {
+                    needToTransStr[i] = kv.Key;
+                }
+                else
+                {
+                    needToTransStr[i] = kv.Value;
+                }
+                i++;
+            }
+
+            byte[][] result = new byte[dic.Count][];
+            for(i=0; i<dic.Count; i++)
+            {
+                result[i] = Encoding.UTF8.GetBytes(needToTransStr[i]);
+            }
+            return result;
         }
 
         private static string bytesToString(byte[] bytes)
@@ -94,7 +113,15 @@ namespace EtherCATImpl.database
         //未实现
         private static Dictionary<string, string> BytesArrToDic(byte[][] keys, byte[][] values)
         {
-            return new Dictionary<string, string>();
+            string key, value;
+            Dictionary<string, string> resultDic = new Dictionary<string, string>();
+            for(int i=0; i<keys.Length; i++)
+            {
+                key = Encoding.UTF8.GetString(keys[i]);
+                value = Encoding.UTF8.GetString(values[i]);
+                resultDic.Add(key, value);
+            }
+            return resultDic;
         }
         #endregion
     }

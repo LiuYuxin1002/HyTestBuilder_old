@@ -15,7 +15,7 @@ namespace EtherCATImpl.database
     public class RedisManager
     {
         private const string REDIS_HOST = "127.0.0.1";
-        private const int REDIS_PORT = 3333;
+        private const int REDIS_PORT = 6379;
 
         private static RedisClient client = null;
 

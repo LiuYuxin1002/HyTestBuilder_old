@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CppConnect.cs" />
+    <Compile Include="database\DataDeserialization.cs" />
     <Compile Include="database\RedisHashHelper.cs" />
     <Compile Include="database\RedisManager.cs" />
     <Compile Include="database\RedisTest.cs" />

@@ -10,21 +10,21 @@ namespace EtherCATImpl
 {
     class EtherCAT : IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
     {
-        #region region_property
+        #region region_属性
         public ConnectionContext context { get; set; }
         #endregion
 
-        #region region_const
+        #region region_常量
         private const int SAFECODE = 0;
         #endregion
 
-        #region region_event
+        #region region_事件
 
         public event EventHandler datachanged;
 
         #endregion
 
-        #region region_connection
+        #region region_连接管理
         public int close()
         {
             throw new NotImplementedException();
@@ -41,7 +41,7 @@ namespace EtherCATImpl
         }
         #endregion
 
-        #region region_deviceLoader
+        #region region_硬件
 
         public IOdevice[] getDevice()
         {
@@ -65,7 +65,7 @@ namespace EtherCATImpl
 
         #endregion
 
-        #region region_readWrite
+        #region region_读写
         public int ReadAnalog(List<int> deviceList, List<int[]> channelList, ref List<int[]> values)
         {
             throw new NotImplementedException();
@@ -113,7 +113,7 @@ namespace EtherCATImpl
         }
         #endregion
 
-        #region region_adapter
+        #region region_网卡
         Adapter[] IAdapterLoader.getAdapter()
         {
             int adapternum = CppConnect.getAdapterNum();

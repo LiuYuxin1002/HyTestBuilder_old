@@ -11,6 +11,19 @@ namespace IndustrialEthernetAPI
         public abstract event EventHandler datachanged;
         private AbstractIEBConnector Connector;
 
+        public ConnectionContext context
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         private AbstractIEBConnector()
         {
 

@@ -21,3 +21,10 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin
 D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\System.Buffers.xml
 D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\System.Memory.xml
 D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\EtherCATImpl.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\IndustrialEthernetEntity.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\IndustrialEthernetAPI.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\TwinCAT.Ads.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\EtherCATImpl.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\IndustrialEthernetEntity.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\MasterConnectorConsole\bin\Debug\IndustrialEthernetAPI.pdb
