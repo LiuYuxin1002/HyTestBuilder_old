@@ -19,7 +19,7 @@ namespace TestForm
         public FormNIC()
         {
             InitializeComponent();
-            ethercat = new EtherCAT(true);
+            ethercat = EtherCAT.getEtherCAT(true);
         }
 
         private void button1_Click(object sender, EventArgs e)

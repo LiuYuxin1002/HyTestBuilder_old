@@ -11,15 +11,35 @@ namespace EtherCATImpl
     public class EtherCAT : ConnectionContext, IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
     {
         #region region_属性
-        //public ConnectionContext context { get; set; }
+
         #endregion
 
         #region region_常量
         private const int SAFECODE = 0;
+        #endregion
 
-        public EtherCAT(bool hasAdapter) : base(hasAdapter)
+        #region region_成员变量
+
+        private static EtherCAT ethercat;
+        public static EtherCAT getEtherCAT(bool hasAdapter)
         {
-            //context = new ConnectionContext(hasAdapter);
+            if(ethercat == null)
+            {
+                ethercat = new EtherCAT(hasAdapter);
+                return ethercat;
+            }
+            else
+            {
+                return ethercat;
+            }
+        }
+
+        #endregion
+
+        #region region_构造函数
+        private EtherCAT(bool hasAdapter)
+        {
+            haveAdapter = hasAdapter;
         }
         #endregion
 

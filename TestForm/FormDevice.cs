@@ -16,17 +16,7 @@ namespace TestForm
     {
         public EtherCAT ethercat;
 
-        private const string DI = "DI";
-        private const string DO = "DO";
-        private const string AI = "AI";
-        private const string AO = "AO";
-        private string[] type =
-        {
-            "DI",
-            "DO",
-            "AI",
-            "AO",
-        };
+        private string[] type = { "DI", "DO", "AI", "AO", };
 
         public IOdevice[] devices = {
                 new IOdevice(1, 1, "EL1004", 4),
@@ -37,7 +27,7 @@ namespace TestForm
         public FormDevice()
         {
             InitializeComponent();
-            ethercat = new EtherCAT(true);
+            ethercat = EtherCAT.getEtherCAT(true);
             //临时的
             ethercat.getAdapter();
             ethercat.setAdapter(2);
@@ -52,10 +42,7 @@ namespace TestForm
             {
                 typeNode[i] = new TreeNode(type[i]);
             }
-            //TreeNode typeDI = new TreeNode(DI);
-            //TreeNode typeDO = new TreeNode(DO);
-            //TreeNode typeAI = new TreeNode(AI);
-            //TreeNode typeAO = new TreeNode(AO);
+            
             rootNode.Nodes.AddRange(typeNode);
             
             for (int i = 0; i < devices.Length; i++)
@@ -69,6 +56,20 @@ namespace TestForm
                     TreeNode ch = new TreeNode("channel" + (channel+1));
                     slave.Nodes.Add(ch);
                 }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormNIC nicform = new FormNIC();
+            nicform.ShowDialog();
+            if (nicform.DialogResult == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+
             }
         }
     }
