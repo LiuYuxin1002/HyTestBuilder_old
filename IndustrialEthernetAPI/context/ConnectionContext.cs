@@ -9,16 +9,16 @@ namespace IndustrialEthernetAPI
 {
     public class ConnectionContext
     {
-        public IOdevice[] devices { get; set; }
-        public Adapter[] adapters { get; set; }
-        public bool hasAdapter { get; set; }
-        public int deviceNum { get; set; }
-        public int inputDeviceNum { get; set; }
-        public int outputDeviceNum { get; set; }
-        public int adapterNum { get; set; }
+        public static IOdevice[] devices { get; set; }
+        public static Adapter[] adapters { get; set; }
+        public static bool hasAdapter { get; set; }
+        public static int deviceNum { get; set; }
+        public static int inputDeviceNum { get; set; }
+        public static int outputDeviceNum { get; set; }
+        public static int adapterNum { get; set; }
         public ConnectionContext(bool hasAdapter)
         {
-            this.hasAdapter = hasAdapter;
+           // this.hasAdapter = hasAdapter;
         }
 
         public void setinfo(Delegate del)

@@ -11,7 +11,7 @@ namespace EtherCATImpl
     public class EtherCAT : ConnectionContext, IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
     {
         #region region_属性
-        public ConnectionContext context { get; set; }
+        //public ConnectionContext context { get; set; }
         #endregion
 
         #region region_常量
@@ -19,7 +19,7 @@ namespace EtherCATImpl
 
         public EtherCAT(bool hasAdapter) : base(hasAdapter)
         {
-            context = new ConnectionContext(hasAdapter);
+            //context = new ConnectionContext(hasAdapter);
         }
         #endregion
 
@@ -51,21 +51,21 @@ namespace EtherCATImpl
         public IOdevice[] getDevice()
         {
             int slaveNum = CppConnect.getSlaveNum();
-            context.deviceNum = slaveNum;
+            deviceNum = slaveNum;
             for (int i = 0; i < slaveNum; i++)
             {
-                Slave tmpSlave = new Slave();
+                IOdevice tmpSlave = new IOdevice();
                 int err = CppConnect.getSlaveInfo(ref tmpSlave, i);
                 if (err == SAFECODE)
                 {
-                    context.devices[i] = tmpSlave;
+                    devices[i] = tmpSlave;
                 }
                 else//有错误
                 {
                     throw new Exception();
                 }
             }
-            return context.devices;
+            return devices;
         }
 
         #endregion
@@ -121,8 +121,8 @@ namespace EtherCATImpl
         #region region_网卡
         public Adapter[] getAdapter()
         {
-            this.adapterNum = CppConnect.getAdapterNum();
-            context.adapters = new Adapter[adapterNum];
+            adapterNum = CppConnect.getAdapterNum();
+            adapters = new Adapter[adapterNum];
 
             StringBuilder tmpAdapterName = new StringBuilder();
             tmpAdapterName.Capacity = 128;
@@ -133,11 +133,11 @@ namespace EtherCATImpl
                 {
 
                 }
-                context.adapters[i] = new Adapter();
-                context.adapters[i].name = tmpAdapterName.ToString();
+                adapters[i] = new Adapter();
+                adapters[i].name = tmpAdapterName.ToString();
                 tmpAdapterName.Clear();
             }
-            return context.adapters;
+            return adapters;
         }
 
         public ErrorCode setAdapter(int id)
@@ -148,6 +148,11 @@ namespace EtherCATImpl
                 return ErrorCode.ADAPTER_SELECT_FAIL;
             }
             return 0;
+        }
+
+        IOdevice[] IDeviceLoader.getDevice()
+        {
+            throw new NotImplementedException();
         }
         #endregion
 

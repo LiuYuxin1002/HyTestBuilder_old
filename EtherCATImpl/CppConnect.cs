@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using IndustrialEthernetEntity;
 
 namespace EtherCATImpl
 {
@@ -23,7 +24,7 @@ namespace EtherCATImpl
         [DllImport("DLLOutput.dll")]
         public static extern int getSlaveNum();
         [DllImport("DLLOutput.dll", EntryPoint = "setNicInfo", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int getSlaveInfo(ref Slave slaveInfo, int id);
+        public static extern int getSlaveInfo(ref IOdevice slaveInfo, int id);
         //设置从站某端口信息
         [DllImport("DLLOutput.dll")]
         public static extern int setIntergerValue(int slaveId, int channel, int value);

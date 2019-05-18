@@ -10,7 +10,7 @@ namespace IndustrialEthernetAPI
     public interface IConnection
     {
         event EventHandler datachanged;
-        ConnectionContext context { get; set; }
+        //ConnectionContext context { get; set; }
 
         /// <summary>
         /// 建立连接

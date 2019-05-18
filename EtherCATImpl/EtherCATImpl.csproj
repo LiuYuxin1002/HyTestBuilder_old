@@ -94,7 +94,6 @@
     <Compile Include="database\RedisTest.cs" />
     <Compile Include="server\EthercatGroup.cs" />
     <Compile Include="server\EthercatServer.cs" />
-    <Compile Include="Slave.cs" />
     <Compile Include="EtherCAT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

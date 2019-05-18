@@ -29,7 +29,7 @@ namespace TestForm
             nicinfo.Columns.Add("ID", typeof(int));
             nicinfo.Columns.Add("NAME", typeof(string));
             nicinfo.Columns.Add("STATE", typeof(string));
-            for(int i=0; i<ethercat.adapterNum; i++)
+            for(int i=0; i<EtherCAT.adapterNum; i++)
             {
                 DataRow row = nicinfo.NewRow();
                 row[0] = i+1;
