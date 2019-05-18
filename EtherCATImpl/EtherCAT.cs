@@ -21,7 +21,7 @@ namespace EtherCATImpl
         #region region_成员变量
 
         private static EtherCAT ethercat;
-        public static EtherCAT getEtherCAT(bool hasAdapter)
+        public static EtherCAT getEtherCAT(bool hasAdapter)//单例
         {
             if(ethercat == null)
             {
@@ -162,18 +162,22 @@ namespace EtherCATImpl
 
         public ErrorCode setAdapter(int id)
         {
-            int err = CppConnect.setNicId(id);
-            if (err != 0)
+            int errmsg = CppConnect.setNicId(id);
+            if (errmsg < 0)
             {
                 return ErrorCode.ADAPTER_SELECT_FAIL;
             }
-            return 0;
+            else if (errmsg == 0)
+            {
+                return ErrorCode.NO_SLAVE_CONNECTED;
+            }
+            else
+            {
+                deviceNum = errmsg;
+                return ErrorCode.NO_ERROR;
+            }
         }
 
-        IOdevice[] IDeviceLoader.getDevice()
-        {
-            throw new NotImplementedException();
-        }
         #endregion
 
         #region other method

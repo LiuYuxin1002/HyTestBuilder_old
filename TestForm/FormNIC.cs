@@ -45,10 +45,28 @@ namespace TestForm
         {
             int selectedNic = dataGridView1.SelectedRows[0].Index;
             ErrorCode err = ethercat.setAdapter(selectedNic);
-            if (err == ErrorCode.ADAPTER_SELECT_FAIL)
+            if (err != ErrorCode.NO_ERROR)
             {
-                MessageBox.Show("选取失败");
+                if (err == ErrorCode.ADAPTER_SELECT_FAIL)
+                {
+                    MessageBox.Show("选取失败");
+                }
+                else if (err == ErrorCode.NO_SLAVE_CONNECTED)
+                {
+                    MessageBox.Show("没有从站连接，请检查所选网卡");
+                }
             }
+            else
+            {
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
         }
     }
 }

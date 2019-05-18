@@ -18,12 +18,12 @@ namespace TestForm
 
         private string[] type = { "DI", "DO", "AI", "AO", };
 
-        public IOdevice[] devices = {
-                new IOdevice(1, 1, "EL1004", 4),
-                new IOdevice(2, 2, "EL2004", 4),
-                new IOdevice(3, 3, "EL3008", 8),
-                new IOdevice(4, 4, "EL4002", 2),
-            };
+        //public IOdevice[] devices = {
+        //        new IOdevice(1, 1, "EL1004", 4),
+        //        new IOdevice(2, 2, "EL2004", 4),
+        //        new IOdevice(3, 3, "EL3008", 8),
+        //        new IOdevice(4, 4, "EL4002", 2),
+        //    };
         public FormDevice()
         {
             InitializeComponent();
@@ -35,6 +35,8 @@ namespace TestForm
         //扫描从站
         private void button1_Click(object sender, EventArgs e)
         {
+            ethercat.getDevice();//然后就可以用ethercat.devices来进行操作了
+
             TreeNode rootNode = new TreeNode("Devices");
             treeView1.Nodes.Add(rootNode);
             TreeNode[] typeNode = new TreeNode[4];
@@ -45,9 +47,9 @@ namespace TestForm
             
             rootNode.Nodes.AddRange(typeNode);
             
-            for (int i = 0; i < devices.Length; i++)
+            for (int i = 0; i < EtherCAT.devices.Length; i++)
             {
-                IOdevice device = devices[i];
+                IOdevice device = EtherCAT.devices[i];
                 TreeNode slave = new TreeNode(device.name);
                 int slaveType = device.type;
                 typeNode[slaveType-1].Nodes.Add(slave);
@@ -69,8 +71,13 @@ namespace TestForm
             }
             else
             {
-
+                MessageBox.Show("取消");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
