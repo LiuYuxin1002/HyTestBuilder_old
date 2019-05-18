@@ -12,6 +12,6 @@ namespace IndustrialEthernetEntity
         public int type { get; set; }//Di,DO,AI,AO
         public string name { get; set; }
         public int channelNum { get; set; }
-        public Type[] value;
+        public Object[] value;
     }
 }

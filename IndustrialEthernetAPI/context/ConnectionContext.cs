@@ -20,5 +20,10 @@ namespace IndustrialEthernetAPI
         {
             this.hasAdapter = hasAdapter;
         }
+
+        public void setinfo(Delegate del)
+        {
+            del.DynamicInvoke(null);
+        }
     }
 }

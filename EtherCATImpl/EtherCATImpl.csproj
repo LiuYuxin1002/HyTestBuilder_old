@@ -56,6 +56,7 @@
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.2\lib\netstandard1.1\System.Memory.dll</HintPath>
       <Private>True</Private>
@@ -71,6 +72,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\System.Threading.Thread.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -79,17 +81,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controls\LED.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\LED.Designer.cs">
+      <DependentUpon>LED.cs</DependentUpon>
+    </Compile>
     <Compile Include="CppConnect.cs" />
     <Compile Include="database\DataDeserialization.cs" />
     <Compile Include="database\RedisHashHelper.cs" />
     <Compile Include="database\RedisManager.cs" />
     <Compile Include="database\RedisTest.cs" />
+    <Compile Include="server\EthercatGroup.cs" />
+    <Compile Include="server\EthercatServer.cs" />
     <Compile Include="Slave.cs" />
     <Compile Include="EtherCAT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <EmbeddedResource Include="controls\LED.resx">
+      <DependentUpon>LED.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLLOutput\DLLOutput.vcxproj">
+      <Project>{233ee7bf-3706-432e-9792-fe31338fe83d}</Project>
+      <Name>DLLOutput</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IndustrialEthernetAPI\IndustrialEthernetAPI.csproj">
       <Project>{56107191-c952-4278-a900-7feec736217f}</Project>
       <Name>IndustrialEthernetAPI</Name>
@@ -102,6 +120,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -159,8 +159,10 @@ extern "C"
 		//if ((argc > 2) && (strncmp(argv[2], "-map", sizeof("-map")) == 0)) printMAP = TRUE;
 		/* start slaveinfo */
 		//printf(myadapter.nicName[nicId].data());发现了所选和所见对应不上
-		char* completeStr = strcat("\\Device\\NPF_", myadapter.nicName[nicId].data());
-		strcpy(ifbuf, completeStr);
+		string tmpstr = myadapter.nicName[nicId].data();
+		tmpstr = "\\Device\\NPF_" + tmpstr;
+		//char* completeStr = strcat("\\Device\\NPF_", myadapter.nicName[tmpId].data());
+		strcpy(ifbuf, tmpstr.c_str());
 		
 		return initSlaveInfo(ifbuf);;
 	}

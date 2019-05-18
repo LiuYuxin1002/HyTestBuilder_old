@@ -8,7 +8,7 @@ using IndustrialEthernetEntity;
 
 namespace EtherCATImpl
 {
-    class EtherCAT : IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
+    public class EtherCAT : ConnectionContext, IConnection, IAdapterLoader, IDeviceLoader, IReadWrite
     {
         #region region_属性
         public ConnectionContext context { get; set; }
@@ -16,6 +16,11 @@ namespace EtherCATImpl
 
         #region region_常量
         private const int SAFECODE = 0;
+
+        public EtherCAT(bool hasAdapter) : base(hasAdapter)
+        {
+            context = new ConnectionContext(hasAdapter);
+        }
         #endregion
 
         #region region_事件
@@ -114,27 +119,28 @@ namespace EtherCATImpl
         #endregion
 
         #region region_网卡
-        Adapter[] IAdapterLoader.getAdapter()
+        public Adapter[] getAdapter()
         {
-            int adapternum = CppConnect.getAdapterNum();
-            context.adapters = new Adapter[adapternum];
+            this.adapterNum = CppConnect.getAdapterNum();
+            context.adapters = new Adapter[adapterNum];
 
             StringBuilder tmpAdapterName = new StringBuilder();
             tmpAdapterName.Capacity = 128;
-            for (int i = 0; i < adapternum; i++)
+            for (int i = 0; i < adapterNum; i++)
             {
                 int err = CppConnect.getContextInfo(tmpAdapterName);
                 if (err != 0)//有错误
                 {
 
                 }
+                context.adapters[i] = new Adapter();
                 context.adapters[i].name = tmpAdapterName.ToString();
                 tmpAdapterName.Clear();
             }
             return context.adapters;
         }
 
-        ErrorCode IAdapterLoader.setAdapter(int id)
+        public ErrorCode setAdapter(int id)
         {
             int err = CppConnect.setNicId(id);
             if (err != 0)

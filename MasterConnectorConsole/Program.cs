@@ -13,7 +13,7 @@ namespace MasterConnectorConsole
     {
         static void Main(string[] args)
         {
-            RedisClient client = RedisManager.Client;
+            //RedisClient client = RedisManager.Client;
 
             //simple operation
             //client.Add("123", "kkk");
@@ -28,26 +28,30 @@ namespace MasterConnectorConsole
             //client.HSet("1", Encoding.UTF8.GetBytes("123"), Encoding.UTF8.GetBytes("234"));
             //client.HSet("1", Encoding.UTF8.GetBytes("111"), Encoding.UTF8.GetBytes("2jqk"));
 
-            Dictionary<string, string> data = new Dictionary<string, string>();
-            data.Add("1_1", "256");
-            data.Add("1_2", "257");
-            data.Add("1_3", "258");
-            data.Add("1_4", "259");
-            data.Add("2_1", "260");
-            data.Add("2_2", "261");
 
-            string time = "1";
+            //Dictionary<string, string> data = new Dictionary<string, string>();
+            //data.Add("1_1", "256");
+            //data.Add("1_2", "257");
+            //data.Add("1_3", "258");
+            //data.Add("1_4", "259");
+            //data.Add("2_1", "260");
+            //data.Add("2_2", "261");
 
-            RedisHashHelper.AddKeyValues(client, time, data);
+            //string time = "1";
 
-            Dictionary<string, string> readData = RedisHashHelper.GetKeyValues(client, time);
+            //RedisHashHelper.AddKeyValues(client, time, data);
 
-            Dataframe dataframe = DataDeserialization.deserializedDic(readData);
+            //Dictionary<string, string> readData = RedisHashHelper.GetKeyValues(client, time);
 
-            for(int i = 0; i<dataframe.count; i++)
-            {
-                Console.WriteLine(dataframe.toString()[i]);
-            }
+            //Dataframe dataframe = DataDeserialization.deserializedDic(readData);
+
+            //for(int i = 0; i<dataframe.count; i++)
+            //{
+            //    Console.WriteLine(dataframe.toString()[i]);
+            //}
+
+            BaseClass bc = new BaseClass();
+            Console.ReadKey();
         }
     }
 }

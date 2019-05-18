@@ -1,0 +1,8 @@
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.csprojResolveAssemblyReference.cache
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\TwinCAT.Ads.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.pdb

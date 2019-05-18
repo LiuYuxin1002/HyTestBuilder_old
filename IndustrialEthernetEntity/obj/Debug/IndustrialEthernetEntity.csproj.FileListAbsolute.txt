@@ -1,0 +1,5 @@
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\bin\Debug\IndustrialEthernetEntity.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\bin\Debug\IndustrialEthernetEntity.pdb
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.csprojResolveAssemblyReference.cache
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.dll
+D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.pdb
