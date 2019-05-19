@@ -3,3 +3,8 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\b
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.csprojResolveAssemblyReference.cache
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.dll
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetEntity\bin\Debug\IndustrialEthernetEntity.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetEntity\bin\Debug\IndustrialEthernetEntity.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetEntity\obj\Debug\IndustrialEthernetEntity.pdb

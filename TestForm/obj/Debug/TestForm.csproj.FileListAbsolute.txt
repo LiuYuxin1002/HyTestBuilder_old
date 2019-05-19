@@ -32,3 +32,10 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\obj\Debug\TestFor
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\obj\Debug\TestForm.FormDevice.resources
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\bin\Debug\DLLOutput.dll
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\bin\Debug\DLLOutput.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Form1.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormNIC.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormDevice.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\TestForm.exe.config

@@ -27,3 +27,6 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\obj\Debug\Eth
 D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\obj\Debug\EtherCATImpl.csproj.GenerateResource.Cache
 D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\bin\Debug\DLLOutput.dll
 D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\bin\Debug\DLLOutput.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.controls.LED.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csproj.GenerateResource.Cache

@@ -6,3 +6,11 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.pdb
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.dll
 D:\研究生课题\开源软件\HydraulicTestPlatform\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\TwinCAT.Ads.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.pdb
