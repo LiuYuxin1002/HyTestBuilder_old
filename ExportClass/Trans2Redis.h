@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string>
-#include"SoemImplClass.h"
+#include "SoemImplClass.h"
+#include "context.h"
 
 #include <hiredis.h>
 #include <win32fixes.h>
@@ -17,7 +18,6 @@ public:
 
 	hash_map<string, string> TIME;
 	
-	SoemImplClass::MySlavet SoemImplClass::my_slave[MAX_SLAVE];
 
 	//void slave2Hash( int slaveNum);
 	void slave2Hash();

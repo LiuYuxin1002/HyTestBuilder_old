@@ -30,6 +30,9 @@
     <ClInclude Include="Trans2Redis.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExportClass.cpp">

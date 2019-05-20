@@ -7,13 +7,13 @@ extern "C"
 
 
 
-	void Trans2Redis::slave2Hash() 
+	void Trans2Redis::slave2Hash()
 	{
 		for (int i = 0; i < ec_slavecount; i++)
 		{
 			//ÅÐ¶Ï
-			
-			#pragma region
+
+#pragma region
 			//ÅÐ¶Ï´ÓÕ¾ÀàÐÍ
 			switch (my_slave[i].type)
 			{
@@ -24,15 +24,13 @@ extern "C"
 					   {
 					   case 2:
 					   {
-								 (SoemImplClass::slave_di2)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_di2)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
-									 string KEY = to_string(i)+"_"+to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_di2)my_slave[i].ptrToSlave)->values + j);
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((slave_di2)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
-									 
+
 									 TIME.insert(pair<string, string>(KEY, VALUE));
 								 }
 								 break;
@@ -40,12 +38,10 @@ extern "C"
 
 					   case 4:
 					   {
-								 (SoemImplClass::slave_di4)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_di4)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_di4)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_di4)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -54,12 +50,10 @@ extern "C"
 								 break;
 					   }
 					   case 8: {
-								   (SoemImplClass::slave_di8)my_slave[i].ptrToSlave;
-								   *((SoemImplClass::slave_di8)my_slave[i].ptrToSlave)->values;
-								   for (int j = 0; j<my_slave[i].channelNum; j++)
+								   for (int j = 0; j < my_slave[i].channelNum; j++)
 								   {
 									   string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									   int VALUE_temp = (int)(*((SoemImplClass::slave_di8)my_slave[i].ptrToSlave)->values + j);
+									   int VALUE_temp = (int)(*((slave_di8)my_slave[i].ptrToSlave)->values + j);
 
 									   string VALUE = to_string(VALUE_temp);
 
@@ -77,12 +71,10 @@ extern "C"
 					   {
 					   case 2:
 					   {
-								 (SoemImplClass::slave_do2)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_do2)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_do2)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_do2)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -94,12 +86,10 @@ extern "C"
 
 					   case 4:
 					   {
-								 (SoemImplClass::slave_do4)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_do4)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_do4)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_do4)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -112,12 +102,10 @@ extern "C"
 
 					   case 8:
 					   {
-								 (SoemImplClass::slave_do8)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_do8)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_do8)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_do8)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -140,12 +128,10 @@ extern "C"
 					   {
 					   case 1:
 					   {
-								 (SoemImplClass::slave_ai1)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ai1)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai1)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ai1)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -159,12 +145,10 @@ extern "C"
 
 					   case 2:
 					   {
-								 (SoemImplClass::slave_ai2)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ai2)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai2)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ai2)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -176,12 +160,10 @@ extern "C"
 
 					   case 4:
 					   {
-								 (SoemImplClass::slave_ai4)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ai4)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai4)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ai4)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -193,12 +175,10 @@ extern "C"
 
 					   case 8:
 					   {
-								 (SoemImplClass::slave_ai8)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ai8)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai8)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ai8)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -219,12 +199,10 @@ extern "C"
 					   {
 					   case 1:
 					   {
-								 (SoemImplClass::slave_ao1)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ao1)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao1)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ao1)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -236,12 +214,10 @@ extern "C"
 
 					   case 2:
 					   {
-								 (SoemImplClass::slave_ao2)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ao2)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao2)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ao2)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -255,12 +231,10 @@ extern "C"
 
 					   case 4:
 					   {
-								 (SoemImplClass::slave_ao4)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ao4)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao4)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ao4)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -274,12 +248,10 @@ extern "C"
 
 					   case 8:
 					   {
-								 (SoemImplClass::slave_ao8)my_slave[i].ptrToSlave;
-								 *((SoemImplClass::slave_ao8)my_slave[i].ptrToSlave)->values;
-								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 for (int j = 0; j < my_slave[i].channelNum; j++)
 								 {
 									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
-									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao8)my_slave[i].ptrToSlave)->values + j);
+									 int VALUE_temp = (int)(*((slave_ao8)my_slave[i].ptrToSlave)->values + j);
 
 									 string VALUE = to_string(VALUE_temp);
 
@@ -298,7 +270,7 @@ extern "C"
 			default:
 				break;
 			}
-			#pragma endregion
+#pragma endregion
 
 		}
 	}
@@ -309,7 +281,7 @@ extern "C"
 		if (c->err)
 		{
 			redisFree(c);
-			return ;
+			return;
 		}
 
 		for (hash_map<string, string>::iterator i = hashmap.begin(); i != hashmap.end(); i++)
