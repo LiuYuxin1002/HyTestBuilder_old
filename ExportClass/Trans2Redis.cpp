@@ -76,10 +76,58 @@ extern "C"
 					   switch (my_slave[i].channelNum)
 					   {
 					   case 2:
+					   {
+								 (SoemImplClass::slave_do2)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_do2)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_do2)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
 
 					   case 4:
+					   {
+								 (SoemImplClass::slave_do4)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_do4)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_do4)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
 
 					   case 8:
+					   {
+								 (SoemImplClass::slave_do8)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_do8)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_do8)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
+
 
 					   default:
 						   break;
@@ -91,12 +139,74 @@ extern "C"
 					   switch (my_slave[i].channelNum)
 					   {
 					   case 1:
+					   {
+								 (SoemImplClass::slave_ai1)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ai1)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai1)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
+
 
 					   case 2:
+					   {
+								 (SoemImplClass::slave_ai2)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ai2)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai2)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
 
 					   case 4:
+					   {
+								 (SoemImplClass::slave_ai4)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ai4)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai4)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
 
 					   case 8:
+					   {
+								 (SoemImplClass::slave_ai8)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ai8)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ai8)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
 
 					   default:
 						   break;
@@ -108,12 +218,77 @@ extern "C"
 					   switch (my_slave[i].channelNum)
 					   {
 					   case 1:
+					   {
+								 (SoemImplClass::slave_ao1)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ao1)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao1)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
 
 					   case 2:
+					   {
+								 (SoemImplClass::slave_ao2)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ao2)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao2)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
+
 
 					   case 4:
+					   {
+								 (SoemImplClass::slave_ao4)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ao4)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao4)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
+
 
 					   case 8:
+					   {
+								 (SoemImplClass::slave_ao8)my_slave[i].ptrToSlave;
+								 *((SoemImplClass::slave_ao8)my_slave[i].ptrToSlave)->values;
+								 for (int j = 0; j<my_slave[i].channelNum; j++)
+								 {
+									 string KEY = to_string(i) + "_" + to_string(j);//slave id_channal id									 
+									 int VALUE_temp = (int)(*((SoemImplClass::slave_ao8)my_slave[i].ptrToSlave)->values + j);
+
+									 string VALUE = to_string(VALUE_temp);
+
+									 TIME.insert(pair<string, string>(KEY, VALUE));
+								 }
+								 break;
+
+					   }
+
 
 					   default:
 						   break;

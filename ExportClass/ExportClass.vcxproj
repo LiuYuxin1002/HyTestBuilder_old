@@ -74,7 +74,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\Redis\scr\Win32_Interop;..\Redis\deps\hiredis;..\Redis\scr;$(IncludePath)</IncludePath>
+    <IncludePath>..\Redis\src\Win32_Interop;..\Redis\deps\hiredis;..\Redis\src;$(IncludePath)</IncludePath>
     <LibraryPath>..\Redis\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
