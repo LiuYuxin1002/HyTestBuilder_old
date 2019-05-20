@@ -32,16 +32,11 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\obj\Debug\TestFor
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\obj\Debug\TestForm.FormDevice.resources
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\bin\Debug\DLLOutput.dll
 D:\研究生课题\开源软件\HydraulicTestPlatform\TestForm\bin\Debug\DLLOutput.pdb
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csprojResolveAssemblyReference.cache
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Form1.resources
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormNIC.resources
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormDevice.resources
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Properties.Resources.resources
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\TestForm.exe.config
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.exe
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\TestForm.exe
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\TestForm.pdb
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\DLLOutput.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\EtherCATImpl.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\IndustrialEthernetAPI.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\IndustrialEthernetEntity.dll
@@ -50,7 +45,9 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Interfaces.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Text.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Common.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\DLLOutput.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Memory.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Buffers.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\EtherCATImpl.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\IndustrialEthernetAPI.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\IndustrialEthernetEntity.pdb
@@ -58,5 +55,12 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Interfaces.xml
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Text.xml
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ServiceStack.Common.xml
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.exe
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Memory.xml
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\System.Buffers.xml
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Form1.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormNIC.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormDevice.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache

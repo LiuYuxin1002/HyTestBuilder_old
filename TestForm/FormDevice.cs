@@ -67,7 +67,7 @@ namespace TestForm
             nicform.ShowDialog();
             if (nicform.DialogResult == DialogResult.OK)
             {
-
+                Console.WriteLine("LaLaLa");
             }
             else
             {
