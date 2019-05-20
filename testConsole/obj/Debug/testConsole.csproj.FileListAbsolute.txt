@@ -1,0 +1,5 @@
+C:\myproject\HyTestBuilder\testConsole\bin\Debug\testConsole.exe.config
+C:\myproject\HyTestBuilder\testConsole\bin\Debug\testConsole.exe
+C:\myproject\HyTestBuilder\testConsole\bin\Debug\testConsole.pdb
+C:\myproject\HyTestBuilder\testConsole\obj\Debug\testConsole.exe
+C:\myproject\HyTestBuilder\testConsole\obj\Debug\testConsole.pdb

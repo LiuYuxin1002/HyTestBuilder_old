@@ -64,3 +64,4 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.FormDevice.resources
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.Properties.Resources.resources
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
+C:\myproject\HyTestBuilder\TestForm\bin\Debug\TestForm.exe.config

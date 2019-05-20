@@ -27,6 +27,9 @@
     <ClInclude Include="SoemImplClass.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Trans2Redis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExportClass.cpp">
@@ -39,6 +42,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SoemImplClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Trans2Redis.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
