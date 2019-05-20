@@ -100,10 +100,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DLLOutput\DLLOutput.vcxproj">
-      <Project>{233ee7bf-3706-432e-9792-fe31338fe83d}</Project>
-      <Name>DLLOutput</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EtherCATImpl\EtherCATImpl.csproj">
       <Project>{b7d3e5b0-ec3b-4de7-878e-8fdeb4250d9b}</Project>
       <Name>EtherCATImpl</Name>

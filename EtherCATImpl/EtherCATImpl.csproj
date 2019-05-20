@@ -103,9 +103,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DLLOutput\DLLOutput.vcxproj">
-      <Project>{233ee7bf-3706-432e-9792-fe31338fe83d}</Project>
-      <Name>DLLOutput</Name>
+    <ProjectReference Include="..\ExportClass\ExportClass.vcxproj">
+      <Project>{fed8bcdd-c285-4dc1-bec2-beff907602c3}</Project>
+      <Name>ExportClass</Name>
     </ProjectReference>
     <ProjectReference Include="..\IndustrialEthernetAPI\IndustrialEthernetAPI.csproj">
       <Project>{56107191-c952-4278-a900-7feec736217f}</Project>
