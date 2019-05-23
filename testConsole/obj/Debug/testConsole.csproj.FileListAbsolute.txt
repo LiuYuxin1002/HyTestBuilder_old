@@ -3,3 +3,15 @@ C:\myproject\HyTestBuilder\testConsole\bin\Debug\testConsole.exe
 C:\myproject\HyTestBuilder\testConsole\bin\Debug\testConsole.pdb
 C:\myproject\HyTestBuilder\testConsole\obj\Debug\testConsole.exe
 C:\myproject\HyTestBuilder\testConsole\obj\Debug\testConsole.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\bin\Debug\testConsole.exe.config
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\bin\Debug\testConsole.exe
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\bin\Debug\testConsole.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\obj\Debug\testConsole.csprojResolveAssemblyReference.cache
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\obj\Debug\testConsole.exe
+D:\HyTestBuilder文件夹\HyTestBuilder\testConsole\obj\Debug\testConsole.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\bin\Debug\testConsole.exe.config
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\bin\Debug\testConsole.exe
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\bin\Debug\testConsole.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\obj\Debug\testConsole.csprojResolveAssemblyReference.cache
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\obj\Debug\testConsole.exe
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\testConsole\obj\Debug\testConsole.pdb

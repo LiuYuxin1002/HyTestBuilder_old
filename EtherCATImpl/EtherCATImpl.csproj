@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExportClass, Version=1.0.7080.26331, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Debug\ExportClass.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>..\packages\ServiceStack.Common.5.5.0\lib\net45\ServiceStack.Common.dll</HintPath>
       <Private>True</Private>
@@ -103,10 +107,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExportClass\ExportClass.vcxproj">
-      <Project>{fed8bcdd-c285-4dc1-bec2-beff907602c3}</Project>
-      <Name>ExportClass</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IndustrialEthernetAPI\IndustrialEthernetAPI.csproj">
       <Project>{56107191-c952-4278-a900-7feec736217f}</Project>
       <Name>IndustrialEthernetAPI</Name>

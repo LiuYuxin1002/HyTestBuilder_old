@@ -29,16 +29,12 @@ D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\bin\Debug\DLL
 D:\研究生课题\开源软件\HydraulicTestPlatform\EtherCATImpl\bin\Debug\DLLOutput.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\EtherCATImpl.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\EtherCATImpl.pdb
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ExportClass.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetAPI.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetEntity.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Common.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Interfaces.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Redis.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Text.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Buffers.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Memory.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\TwinCAT.Ads.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ExportClass.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetAPI.pdb
@@ -47,11 +43,29 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Interfaces.xml
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Redis.xml
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Text.xml
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Buffers.xml
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Memory.xml
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csprojResolveAssemblyReference.cache
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.controls.LED.resources
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csproj.GenerateResource.Cache
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csprojResolveAssemblyReference.cache
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.controls.LED.resources
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.csproj.GenerateResource.Cache
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\EtherCATImpl.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\EtherCATImpl.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetAPI.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetEntity.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Common.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Interfaces.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Redis.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Text.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ExportClass.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetAPI.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetEntity.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Common.xml
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Interfaces.xml
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Redis.xml
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Text.xml
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\EtherCATImpl\obj\Debug\EtherCATImpl.pdb
+C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ExportClass.dll

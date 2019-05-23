@@ -15,39 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExportClass.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="SoemImplClass.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Trans2Redis.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="context.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="ExportClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AssemblyInfo.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SoemImplClass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Trans2Redis.cpp">
+    <ClCompile Include="mycontext.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -63,5 +34,10 @@
     <Image Include="app.ico">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mycontext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

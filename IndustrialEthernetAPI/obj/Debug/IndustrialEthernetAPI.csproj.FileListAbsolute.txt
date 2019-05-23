@@ -14,3 +14,10 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEth
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.csprojResolveAssemblyReference.cache
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetAPI.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\bin\Debug\IndustrialEthernetEntity.pdb
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.csprojResolveAssemblyReference.cache
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.dll
+D:\HyTestBuilder文件夹\HyTestBuilder\IndustrialEthernetAPI\obj\Debug\IndustrialEthernetAPI.pdb
