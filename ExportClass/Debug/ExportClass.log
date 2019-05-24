@@ -1,1 +1,3 @@
-﻿  ExportClass.vcxproj -> C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\Debug\ExportClass.dll
+﻿soem.lib(ethercatmain.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+    正在创建库 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\Debug\ExportClass.lib 和对象 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\Debug\ExportClass.exp
+  ExportClass.vcxproj -> C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\Debug\ExportClass.dll

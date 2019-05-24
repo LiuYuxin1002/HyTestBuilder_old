@@ -85,4 +85,3 @@ D:\HyTestBuilder文件夹\HyTestBuilder\TestForm\obj\Debug\TestForm.csproj.Gener
 D:\HyTestBuilder文件夹\HyTestBuilder\TestForm\obj\Debug\TestForm.exe
 D:\HyTestBuilder文件夹\HyTestBuilder\TestForm\obj\Debug\TestForm.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ExportClass.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\TestForm\bin\Debug\ExportClass.pdb

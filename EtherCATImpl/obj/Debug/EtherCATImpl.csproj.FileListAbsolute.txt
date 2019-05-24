@@ -36,7 +36,6 @@ C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Redis.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Text.dll
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\TwinCAT.Ads.dll
-C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ExportClass.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetAPI.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\IndustrialEthernetEntity.pdb
 C:\Users\LiuYX\Documents\Visual Studio 2015\Projects\HyTestBuilder\EtherCATImpl\bin\Debug\ServiceStack.Common.xml
